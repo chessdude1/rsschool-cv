@@ -1,20 +1,20 @@
-# rsschool-cv
+# [rsschool-cv](https://chessdude1.github.io/rsschool-cv/cv)
 ## Dmitry Platonov
 ## Frontend Developer
 
-### Contact information:
+## Contact information:
 * **Phone** : +79017462648
 * **E-mail** : mitia.platonow2011@yandex.ru
 * **Telegram** : @Platon_nation
 
-### About me:
+## About me:
  I am currently a first year graduate student. For a deeper understanding of programming, I entered the direction: software engineering. My goal is to become a good developer who deeply understands the technologies he works with.
 
   I am recently in web development, 6 months. But I can say that these half a year I have been doing something that arouses great interest in me. Most of all I like writing javaScript scripts. Before web development, I tried myself in ML and DataScience, but a lot of mathematics pushed me away from this direction. During these half a year, I got acquainted with such technologies as: React, Redux, HTML5, JavaScript, Next.js, Typescript. Created an application in React + redux, several landing pages, few javaScript applications.
   
   I am sure that hard work, motivation, learn ability will allow me to achieve any goals that I set. And ambition will not allow me to stand still and be constantly in development.
   
- ### Skills:
+ ## Skills: 
  1. JavaScript
  2. HTML5
  3. CSS(Preprocessor SCSS)
@@ -22,7 +22,7 @@
  5. Version control: Git (remote service GitHub)
  6. Next.js
  
-  ### Code example:
+  ## Code example:
   **The Hashtag Generator** *The marketing team is spending way too much time typing in hashtags.
 Let's help them with our own Hashtag Generator!*
 
@@ -51,13 +51,13 @@ Let's help them with our own Hashtag Generator!*
 }
 ```
 
-### Courses:
+## Courses:
 1. HTMl, CSS, SCSS | [Фрилансер по жизни - IT и фриланс ](https://www.youtube.com/c/FreelancerLifeStyle)
 2. JavaScript | [Современный JavaScript + Vue с нуля на реальных проектах](https://www.udemy.com/course/modern-javascript-from-beginning/)
 3. JavaScript | [Современный учебник JavaScript](https://learn.javascript.ru/)
 4. React JS, Redux | [IT - KAMASUTRA](https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g)
 
-### Languages:
+## Languages:
 * English - Intermediate
 ![image](https://user-images.githubusercontent.com/79264740/133652032-f09fc16d-7106-4426-91a6-71574a412ac6.png)
 * Russian - Native

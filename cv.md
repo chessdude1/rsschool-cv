@@ -14,7 +14,7 @@
   
   I am sure that hard work, motivation, learn ability will allow me to achieve any goals that I set. And ambition will not allow me to stand still and be constantly in development.
   
- ## Skills: 
+## Skills: 
  1. JavaScript
  2. HTML5
  3. CSS(Preprocessor SCSS)
@@ -22,7 +22,7 @@
  5. Version control: Git (remote service GitHub)
  6. Next.js
  
-  ## Code example:
+## Code example:
   **The Hashtag Generator** *The marketing team is spending way too much time typing in hashtags.
 Let's help them with our own Hashtag Generator!*
 

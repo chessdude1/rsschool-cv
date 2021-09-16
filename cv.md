@@ -51,3 +51,15 @@ Let's help them with our own Hashtag Generator!*
 }
 ```
 
+### Courses:
+1. HTMl, CSS, SCSS | [Фрилансер по жизни - IT и фриланс ](https://www.youtube.com/c/FreelancerLifeStyle)
+2. JavaScript | [Современный JavaScript + Vue с нуля на реальных проектах](https://www.udemy.com/course/modern-javascript-from-beginning/)
+3. JavaScript | [Современный учебник JavaScript](https://learn.javascript.ru/)
+4. React JS, Redux | [IT - KAMASUTRA](https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g)
+
+### Languages:
+* English - Intermediate
+![image](https://user-images.githubusercontent.com/79264740/133652032-f09fc16d-7106-4426-91a6-71574a412ac6.png)
+* Russian - Native
+* German - Basic
+

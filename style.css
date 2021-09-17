@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  a:hover:after,
+  .navigation__link:active:after {
+    width: 100%;
+  }
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: 'Bebas Neue';
+}
+
+header .UserPhoto{
+    border-radius: 50%;
+    height: 200px;
+    border: 1px solid rgb(137, 58, 0);
+    margin-left: -80px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 185, 101  );
+    border: 1px solid rgb(137, 58, 0);
+}
+
+header {
+    background-color: rgb(255, 185, 101  );
+    border: 1px solid rgb(137, 58, 0);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small; 
+}
+
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.contacts-item img {
+    height: 30px;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.AboutMe img {
+    margin: 0 auto;
+}
+.AboutMe {
+    padding-top: 20px;
+    text-align: center;
+}
+.AboutMe h1 {
+    font-size: x-large;
+}
+.hardSkills {
+    margin-top: 40px;
+    display: flex;
+    border: 2px solid rgb(137, 58, 0)
+}
+
+.leftColumn {
+    width: 35%;
+    border-right: 2px solid rgb(137, 58, 0)
+}
+
+.rightColumn {
+    margin-left: 5%;
+    width: 100%;
+    border-left: 2px solid rgb(137, 58, 0)
+}
+
+.HardSkillHeader {
+    background-color: rgb(255, 185, 101  );
+    text-align: center;
+    border-bottom: 2px solid rgb(137, 58, 0);
+    font-size: x-large;
+}
+
+.DescriptionOfHardSkill {
+    
+    text-align: center;
+}
+
+.LanguageHeader {
+    margin-top: 20px;
+    border-top: 2px solid rgb(137, 58, 0);
+}
+
+.CodeExample {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px solid rgb(137, 58, 0);
+}
+
+.CodeExampleDescription {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.CoursesDescription a {
+    text-decoration: underline
+}
+
+footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 185, 101  );;
+}
+.GitHubPicture {
+    display: flex;
+    align-items: center;
+}
+footer img {
+    height: 30px;
+}
+
+
+
+
+
+
+
+

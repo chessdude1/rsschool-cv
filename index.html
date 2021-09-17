@@ -1,113 +1,204 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <div class="container"> 
-            <nav> <a href='#Skills'>Skills</a> <a href='#CodeExample'>Code example</a> <a href='#Languages'>Languages</a> <a href='#Courses'>Courses</a></nav>
-        <header>
-            <div class="contacts-item"></div>
-            <div class="contacts-item"></div>
-            <div class="contacts-item"></div>
-            <!-- здесь будут контакты  -->
-            <div class="contacts-item"></div>
-        </header>
-        <main>
-            <section class='AboutMe'>
-                 <img src="/Capture_00006_Виза_США — копия.png" alt="photo not found">
-                <h1>Dmitry Platonov</h1>
-                <h2>Frontend developer</h2>
-                <h3>Male</h3>
-                <h3>22 years old</h3>
-                <p> I am currently a first year graduate student. For a deeper understanding of programming, I entered the direction: software engineering. My goal is to become a good developer who deeply understands the technologies he works with.
-                    I am recently in web development, 6 months. But I can say that these half a year I have been doing something that arouses great interest in me. Most of all I like writing javaScript scripts. Before web development, I tried myself in ML and DataScience, but a lot of mathematics pushed me away from this direction. During these half a year, I got acquainted with such technologies as: React, Redux, HTML5, JavaScript, Next.js, Typescript. Created an application in React + redux, several landing pages, few javaScript applications.                 
-                    I am sure that hard work, motivation, learn ability will allow me to achieve any goals that I set. And ambition will not allow me to stand still and be constantly in development.</p>
-            </section>
-            <section class="hardSkills">
-                <div class="leftColumn"></div>
-                    <div id ='Skills' class='HardSkillHeader'>
-                        <h1>Skills</h1>
-                    </div>
-                    <article class="DescriptionOfHardSkill">
-                    <div class='SkillsDescription'>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>HTML5</li>
-                            <li>CSS(Preprocessor SCSS)</li>
-                            <li>React JS, Redux( begin level knowledge)</li>
-                            <li>Version control: Git (remote service GitHub)</li>
-                            <li>Next.js</li>
-                        </ul>
-                    </div>
-                </article>
-                    <div id ='Languages' class='HardSkillHeader'>
-                        <h1>Languages</h1>
-                    </div>
-                    <article class="DescriptionOfHardSkill">
-                    <div class='LanguagesDescription'>
-                        <ul>
-                            <li>English - <b>Intermediate </b></li>
-                            <li>Russian - <b>Native</b></li>
-                            <li>German -  <b>Basic</b></li>
-                            <li><img src="https://user-images.githubusercontent.com/79264740/133652032-f09fc16d-7106-4426-91a6-71574a412ac6.png" alt="photo not found"></li>
-                        </ul>
-                    </div> 
-                </article>  
-                <div class="rightColumn">
-                    <div id ='Courses' class='HardSkillHeader'>
-                        <h1>Courses</h1>
-                    </div>
-                    <article class="DescriptionOfHardSkill">
-                    <div class='CoursesDescription'>
-                        <ul class="leftColumnOfCourses">
-                            <li> HTMl, CSS, SCSS | <a href="https://www.youtube.com/c/FreelancerLifeStyle">Фрилансер по жизни - IT и фриланс</a></li>
-                            <li>JavaScript | <a href="https://www.udemy.com/course/modern-javascript-from-beginning/">Современный JavaScript + Vue с нуля на реальных проектахс</a></li>
-                        </ul>
-                        <ul class="RightColumnOfCourses">
-                            <li>JavaScript | <a href="https://learn.javascript.ru">Современный учебник JavaScript</a></li>
-                            <li>React JS, Redux | <a href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g">IT - KAMASUTRA</a></li>
-                        </ul>
-                    </div>
-                </article>
-                    <div id ='CodeExample' class='HardSkillHeader'>
-                        <h1>Code example</h1>
-                    </div>
-                    <article class="DescriptionOfHardSkill">
-                    <div class="CodeExampleDescription">
-                        <h4> The Hashtag Generator </h4>
-
-                        <p> <br>function generateHashtag(str) {
-                            <br>let splitString = str.split("");
-                            <br>if (splitString[0]) {
-                            <br>  splitString[0] = splitString[0].toUpperCase();
-                            <br>}
-                            <br> for (let i = 0; i + 1 < splitString.length; i++) {
-                            <br> if (splitString[i] === " ") {
-                            <br>splitString[i + 1] = splitString[i + 1].toUpperCase();
-                            <br>  }
-                            <br>}
-                            <br>let StringWithAllUpperCase = splitString.join("");
-                            <br>let FinalWord = "#".concat(StringWithAllUpperCase.split(" ").join(""));
-                            <br>if (FinalWord.length > 140 || FinalWord.split("")[1] == undefined) {
-                            <br>  return false;
-                            <br>}
-                            <br>return FinalWord;
-                            <br>}
-                        </p>
-                    </div>
-                    </article>
-                </div>
-            </section>
-        </main>
-        <footer>All ok</footer>
-        <script src="style.css" async defer></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="#Skills">Skills</a> <a href="#CodeExample">Code example</a>
+        <a href="#Languages">Languages</a> <a href="#Courses">Courses</a>
+      </nav>
+      <header>
+        <div class="LeftBarContacts">
+          <div class="contacts-item">
+            <img
+              src="https://www.centrepodomedic.com/Podologia/wp-content/uploads/2017/09/Logo-telefono-1.png"
+              alt="picture not found"
+            />
+            Phone : +79017462648
+          </div>
+          <div class="contacts-item">
+            <img src="/email.png" alt="picture not found" />E-mail :
+            mitia.platonow2011@yandex.ru
+          </div>
+        </div>
+        <img
+          class="UserPhoto"
+          src="/Capture_00006_Виза_США — копия.png"
+          alt="photo not found"
+        />
+        <div class="RightBarContacts">
+          <div class="contacts-item TelegramContact">
+            <img src="/telegramm.png" alt="picture not found" />Telegram :
+            @Platon_nation
+          </div>
+          <div class="contacts-item">
+            <img
+              src="https://image.flaticon.com/icons/png/512/2111/2111612.png"
+              alt="picture not found"
+            />GitHub : chessdude1
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="AboutMe">
+          <h1>Dmitry Platonov</h1>
+          <h2>Frontend developer</h2>
+          <h3>Male</h3>
+          <h3>22 years old</h3>
+          <p>
+            I am currently a first year graduate student. For a deeper
+            understanding of programming, I entered the direction: software
+            engineering. My goal is to become a good developer who deeply
+            understands the technologies he works with. I am recently in web
+            development, 6 months. But I can say that these half a year I have
+            been doing something that arouses great interest in me. Most of all
+            I like writing javaScript scripts. Before web development, I tried
+            myself in ML and DataScience, but a lot of mathematics pushed me
+            away from this direction. During these half a year, I got acquainted
+            with such technologies as: React, Redux, HTML5, JavaScript, Next.js,
+            Typescript. Created an application in React + redux, several landing
+            pages, few javaScript applications. I am sure that hard work,
+            motivation, learn ability will allow me to achieve any goals that I
+            set. And ambition will not allow me to stand still and be constantly
+            in development.
+          </p>
+        </section>
+        <section class="hardSkills">
+          <div class="leftColumn">
+            <div id="Skills" class="HardSkillHeader">
+              <h1>Skills</h1>
+            </div>
+            <article class="DescriptionOfHardSkill">
+              <div class="SkillsDescription">
+                <ul>
+                  <li>JavaScript</li>
+                  <li>HTML5</li>
+                  <li>CSS(Preprocessor SCSS)</li>
+                  <li>React JS, Redux( begin level knowledge)</li>
+                  <li>Version control: Git (remote service GitHub)</li>
+                  <li>Next.js</li>
+                </ul>
+              </div>
+            </article>
+            <div id="Languages" class="LanguageHeader HardSkillHeader">
+              <h1>Languages</h1>
+            </div>
+            <article class="DescriptionOfHardSkill">
+              <div class="LanguagesDescription">
+                <ul>
+                  <li>English - <b>Intermediate </b></li>
+                  <li>Russian - <b>Native</b></li>
+                  <li>German - <b>Basic</b></li>
+                  <li>
+                    <!-- <img
+                    src="https://user-images.githubusercontent.com/79264740/133652032-f09fc16d-7106-4426-91a6-71574a412ac6.png"
+                    alt="picture not found"
+                  /> -->
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="rightColumn">
+            <div id="Courses" class="HardSkillHeader">
+              <h1>Courses</h1>
+            </div>
+            <article class="DescriptionOfHardSkill">
+              <div class="CoursesDescription">
+                <ul class="leftColumnOfCourses">
+                  <li>
+                    HTML, CSS, SCSS |
+                    <a href="https://www.youtube.com/c/FreelancerLifeStyle"
+                      >Фрилансер по жизни - IT и фриланс</a
+                    >
+                  </li>
+                  <li>
+                    JavaScript |
+                    <a
+                      href="https://www.udemy.com/course/modern-javascript-from-beginning/"
+                      >Современный JavaScript + Vue с нуля на реальных
+                      проектах</a
+                    >
+                  </li>
+                </ul>
+                <ul class="RightColumnOfCourses">
+                  <li>
+                    JavaScript |
+                    <a href="https://learn.javascript.ru"
+                      >Современный учебник JavaScript</a
+                    >
+                  </li>
+                  <li>
+                    React JS, Redux |
+                    <a
+                      href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g"
+                      >IT - KAMASUTRA</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <div id="CodeExample" class="CodeExample HardSkillHeader">
+              <h1>Code example</h1>
+            </div>
+            <article class="DescriptionOfHardSkill">
+              <div class="CodeExampleDescription">
+                <h4>The Hashtag Generator</h4>
+                It must start with a hashtag (#).
+                <br />All words must have their first letter capitalized.
+                <br />If the final result is longer than 140 chars it must
+                return false. <br />If the input or the result is an empty
+                string it must return false.
+                <p>
+                  <br />function generateHashtag(str) { <br />let splitString =
+                  str.split(""); <br />if (splitString[0]) { <br />
+                  splitString[0] = splitString[0].toUpperCase(); <br />} <br />
+                  for (let i = 0; i + 1 < splitString.length; i++) { <br />
+                  if (splitString[i] === " ") { <br />splitString[i + 1] =
+                  splitString[i + 1].toUpperCase(); <br />
+                  } <br />} <br />let StringWithAllUpperCase =
+                  splitString.join(""); <br />let FinalWord =
+                  "#".concat(StringWithAllUpperCase.split(" ").join(""));
+                  <br />if (FinalWord.length > 140 || FinalWord.split("")[1] ==
+                  undefined) { <br />
+                  return false; <br />} <br />return FinalWord; <br />}
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="GitHubPicture">
+          <img
+            src="https://image.flaticon.com/icons/png/512/2111/2111612.png"
+            alt="picture not found"
+          />
+          <a href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g">Github</a>
+        </div>
+        2021
+        <img src="./rs_school_js.svg" alt="picture not found" />
+      </footer>
+      <script src="style.css" async defer></script>
     </div>
-    </body>
+  </body>
 </html>
